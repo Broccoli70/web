@@ -8,6 +8,7 @@ if($(window).width() > 576) {
     let change;
 
 
+
     if (counter == 0) {
       $(".picture").on('click', (e)=> {
       counter++;
@@ -23,10 +24,10 @@ if($(window).width() > 576) {
           $(change).css({'grid-area':'' + 1 + ' / ' + i +' / '+ 1 + ' / ' + i })
         }
 
-        if (i>=5) {
+        if (i>=6 && i<10) {
           change = "#box" + i;
           $(change).css({'display':'flex' })
-          $(change).css({'grid-area':'' + 2 + ' / ' + (i-5) +' / '+ 2 + ' / ' + (i-4) })
+          $(change).css({'grid-area':'' + 2 + ' / ' + (i-3) +' / '+ 2 + ' / ' + (i-2) })
         }
 
       }
