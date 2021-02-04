@@ -6,6 +6,9 @@
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+body {
+  height: 150vh;
+}
 
 .bar {
   margin-top: 5vh;
@@ -154,7 +157,7 @@ h1.small {
     -ms-grid-row-span: 1;
     -ms-grid-column: 4;
     -ms-grid-column-span: 1;
-    grid-area: 3 / 4 / 4 / 5;
+    grid-area: 3 / 1 / 4 / 2;
   }
   &:nth-child(10){
     -ms-grid-row: 2;
@@ -168,21 +171,21 @@ h1.small {
     -ms-grid-row-span: 1;
     -ms-grid-column: 1;
     -ms-grid-column-span: 1;
-    grid-area: 3 / 1 / 4 / 2;
+    grid-area: 3 / 3 / 4 / 4;
   }
   &:nth-child(12){
     -ms-grid-row: 3;
     -ms-grid-row-span: 1;
     -ms-grid-column: 2;
     -ms-grid-column-span: 1;
-    grid-area: 3 / 2 / 4 / 3;
+    grid-area: 3 / 4 / 4 / 5;
   }
   &:nth-child(13){
     -ms-grid-row: 3;
     -ms-grid-row-span: 1;
     -ms-grid-column: 3;
     -ms-grid-column-span: 1;
-    grid-area: 3 / 3 / 4 / 6;
+    grid-area: 3 / 5 / 4 / 6;
   }
   &:nth-child(14){
     -ms-grid-row: 3;
@@ -196,14 +199,13 @@ h1.small {
     -ms-grid-row-span: 1;
     -ms-grid-column: 5;
     -ms-grid-column-span: 1;
-    grid-area: 3 / 1 / 4 / 1;
+    grid-area: 3 / 5 / 4 / 6;
   }
 }
 .omnie {
   grid-area: 2 / 1 / 3 / 3;
   background: #f3d199;
   border-radius: 5px;
-  display: flex;
   flex-direction: column;
   align-items: center;
 

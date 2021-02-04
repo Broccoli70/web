@@ -8,7 +8,6 @@ if($(window).width() > 576) {
     let change;
 
 
-
     if (counter == 0) {
       $(".picture").on('click', (e)=> {
       counter++;
@@ -34,7 +33,7 @@ if($(window).width() > 576) {
     }})
   }
   $(document).on("click", (e)=> {
-    if(e.pageY < $(document).height() - $(".visual").height()) {
+    if(e.pageY < $(document).height() - $(".feed").height()) {
         $(".text_box").css({'display':'none'})
     }
 
